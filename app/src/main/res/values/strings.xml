@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TempConvert</string>
+    <string name="select_unit_prompt">Select temperature unit :</string>
+    <string name="enter_temperature">Enter temperature</string>
+    <string name="fahrenheit_output">Fahrenheit : %s °F</string>
+    <string name="celsius_output">Celsius : %s °C</string>
+    <string name="kelvin_output">Kelvin : %s K</string>
+    <string name="temperature_converter">Temperature Converter</string>
+    <string-array name="temperature_units">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+    </string-array>
+</resources>

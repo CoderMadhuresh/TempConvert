@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text="@string/temperature_converter"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/unitSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:entries="@array/temperature_units"
+        android:prompt="@string/select_unit_prompt" />
+
+    <EditText
+        android:id="@+id/temperatureEditText"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:autofillHints="0"
+        android:gravity="center"
+        android:hint="@string/enter_temperature"
+        android:inputType="numberDecimal|numberSigned"
+        android:textColorHint="#000000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/fahrenheitTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/kelvinTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="150dp"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+</LinearLayout>
